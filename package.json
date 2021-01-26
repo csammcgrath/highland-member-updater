@@ -1,0 +1,25 @@
+{
+  "name": "highland-member-updater",
+  "version": "0.0.0",
+  "description": "Update CallMultiplier member list",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csammcgrath/highland-member-updater.git"
+  },
+  "author": "Sam McGrath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csammcgrath/highland-member-updater/issues"
+  },
+  "homepage": "https://github.com/csammcgrath/highland-member-updater#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "prompt": "^1.1.0",
+    "puppeteer": "^5.5.0"
+  }
+}
